@@ -6,6 +6,7 @@ using System.Linq;
 
 public class Contact
 {
+    //Я добавил комментарий
     public string Name { get; set; }
     public string PhoneNumber { get; set; }
 
