@@ -6,7 +6,7 @@ using System.Linq;
 
 public class Contact
 {
-    //Я добавил комментарий
+    //Ключевой класс
     public string Name { get; set; }
     public string PhoneNumber { get; set; }
 
@@ -17,11 +17,11 @@ public class Contact
     }
 }
 
-public class ContactManager
+public class ContactManager //Дополнительный класс
 {
     public List<Contact> Contacts { get; private set; }
 
-    public ContactManager()
+    public ContactManager() //Конструктор
     {
         Contacts = new List<Contact>();
         LoadContacts();
